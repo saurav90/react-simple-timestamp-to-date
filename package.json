@@ -15,5 +15,6 @@
     "date}"
   ],
   "author": "Saurav Sen Sarma",
-  "license": "ISC"
+  "license": "MIT",
+  "git": "https://github.com/saurav90/react-simple-timestamp-to-date.git"
 }
