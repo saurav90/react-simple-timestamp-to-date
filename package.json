@@ -1,6 +1,6 @@
 {
   "name": "react-simple-timestamp-to-date",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple utility convert timestamps and date strings to desired human readable format",
   "main": "index.js",
   "scripts": {
