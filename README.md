@@ -34,7 +34,6 @@ import SimpleDateTime  from 'react-simple-timestamp-to-date';
 
 # Code Examples for JSX
 ```
-//import SimpleDateTime from './utilities/SimpleDateTime';
 import React, { Fragment } from 'react';
 import SimpleDateTime  from 'react-simple-timestamp-to-date';
 import ReactDOM from 'react-dom';

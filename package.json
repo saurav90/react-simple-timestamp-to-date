@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "{timestamp",
+    "timestamp",
     "date",
     "datetime",
     "timestamp",
     "to",
-    "date}"
+    "date",
+    "react-simple-timestamp-to-date",
+    "simple timestamp to date"
   ],
   "author": "Saurav Sen Sarma",
   "license": "MIT",
