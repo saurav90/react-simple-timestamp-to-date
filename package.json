@@ -18,5 +18,12 @@
   ],
   "author": "Saurav Sen Sarma",
   "license": "MIT",
-  "git": "https://github.com/saurav90/react-simple-timestamp-to-date.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurav90/react-simple-timestamp-to-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saurav90/react-simple-timestamp-to-date/issues"
+  },
+  "homepage": "https://github.com/saurav90/react-simple-timestamp-to-date#readme"
 }
