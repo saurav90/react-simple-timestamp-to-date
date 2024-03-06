@@ -62,6 +62,18 @@ let formatDate = (date, month, year, dateSeparator, format) => {
             return `${month < 10 ? `0${month}` : `${month}`}${dateSeparator}${date < 10 ? `0${date}` : `${date}`}${dateSeparator}${year}`
         case 'MYD':
             return `${month < 10 ? `0${month}` : `${month}`}${dateSeparator}${year}${dateSeparator}${date < 10 ? `0${date}` : `${date}`}`
+        case 'D':
+            return `${date < 10 ? `0${date}` : `${date}`}`
+        case 'M':
+            return `${month < 10 ? `0${month}` : `${month}`}`
+        case 'Y':
+            return `${year}`
+        case 'DM':
+            return `${date < 10 ? `0${date}` : `${date}`}`${dateSeparator}${month < 10 ? `0${month}`
+       case 'DM':
+            return `${month < 10 ? `0${month}` : `${month}`}`${dateSeparator}`${date < 10 ? `0${date}` : `${date}`}`
+       case 'MY':
+            return `${month < 10 ? `0${month}` : `${month}`}`${dateSeparator}${year}
         default:
             return `${year}${dateSeparator}${month < 10 ? `0${month}` : `${month}`}${dateSeparator}${date < 10 ? `0${date}` : `${date}`}`
     }
